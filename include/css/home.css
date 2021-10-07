@@ -1,0 +1,131 @@
+.body{
+    background:                     url("img/background_2.jpg") no-repeat center center fixed;
+    -webkit-background-size:        cover;
+    -moz-background-size:           cover;
+    -o-background-size:             cover;
+    background-size:                cover;
+    position: relative;
+}
+.backvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    z-index: 10;
+}
+.continer_menu{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: absolute;
+    float: left;
+    background-color: rgba(0,0,0,0.7);
+    width: 25.8vw;
+    height: 100vh;
+    z-index: 10000;
+}
+.title_menu{
+    margin-top: 10%;
+    margin-left: 18%;
+    color:whitesmoke;
+}
+.h2_title_menu{
+    font-size: 4vh;
+}
+.hr_div{
+    width: 80%;
+    height: 1px;
+    color: white;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.header{
+    margin-top: 0;
+    position: absolute;
+    height: 100px;
+    width: 100vw;
+}
+.img{
+    margin-left: 88vw;
+    margin-top: 1%;
+    width: 150px;
+    height: 50px;
+    z-index: 9999;
+    position: absolute;
+}
+.menu_buttons{
+    margin-top: 10px;
+}
+.btn_option{
+    margin-left: 4%;
+    width: 19vw;
+    height: 35px;
+    /* Diseño del boton */
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.8);
+    transition: 0.5
+}
+.btn_option:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: rgba(0, 255, 0, 0.8);
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+.btn_option_exit{
+    margin-left: 4%;
+    width: 19vw;
+    height: 35px;
+    /* Diseño del boton */
+    background-color: rgba(255, 255, 255, 0.8);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    border: 0;
+    box-shadow: 0px 0px 10px rgb(255, 0, 0);
+    transition: 0.5
+}
+.btn_option_exit:hover{
+    transition: 0.5s;
+    color: black;
+    background-color: rgba(255, 70, 70, 0.9);
+    box-shadow: 0px 0px 10px rgb(255, 1, 1);
+}
+.btn_exit{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* -- Welcome --*/
+.welcome{
+    display: block;
+    position: relative;
+    float: right;
+    width: 75vw;
+    margin-right: 3%;
+}
+.h2_welcome{
+    position: absolute;
+    margin-top: 15%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 15px black;
+    margin-left: 12.5%;
+    font-weight: 900;
+    font-size: 3.2em;
+    z-index: 100;
+}
+.link_home, .link_home:hover{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+}
+.container_select_dist{
+    margin-left: 23% !important;
+    width: 70vw !important;
+}

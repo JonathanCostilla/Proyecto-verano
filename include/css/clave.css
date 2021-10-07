@@ -1,0 +1,36 @@
+body{
+    background:                     url("img/background_2.jpg") no-repeat center center fixed;
+    -webkit-background-size:        cover;
+    -moz-background-size:           cover;
+    -o-background-size:             cover;
+    background-size:                cover;
+    overflow:                       hidden;
+}
+.header{
+    margin-left:                    1.5%;
+}
+.container_select{
+    background-color:             rgba(0, 0, 0, 0.7);
+    border:                         1px solid black;
+    box-shadow:                     0 0 30px rgba(53, 253, 3, 0.918);
+    height:                         60vh;
+    width:                          50vw;
+    margin-top:                     5%;
+    margin-left:                    35%;
+}
+.header_title_select{
+    color:                        whitesmoke;
+    width:                          100%;
+}
+.h3_title{
+    margin-top:                     3%;
+    margin-left:                    31%;
+    width:                          18vw;
+    text-shadow:                     0px 0px 4px rgba(53, 253, 3, 0.918);
+}
+.main_menu{
+    position:                       relative;
+}
+.result{
+    width: 100%;
+}
